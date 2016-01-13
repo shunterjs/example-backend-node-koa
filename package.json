@@ -1,0 +1,37 @@
+{
+	"name": "shunter-example-backend-node-koa",
+	"version": "0.0.0",
+	"license": "LGPL-3.0",
+	"private": true,
+
+	"description": "A Node.js and Koa based back end for the Shunter example application",
+
+	"contributors": [
+		"Rowan Manning (http://rowanmanning.com/)"
+	],
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shunterjs/example-backend-node-koa.git"
+	},
+	"homepage": "https://github.com/shunterjs/example-backend-node-koa",
+	"bugs": "https://github.com/shunterjs/example-backend-node-koa/issues",
+
+	"engines": {
+		"node": ">=4"
+	},
+	"dependencies": {
+		"koa": "~1.1",
+		"koa-route": "~2.4",
+		"koa-static": "~2.0"
+	},
+	"devDependencies": {
+		"jscs": "^2",
+		"jshint": "^2"
+	},
+
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	}
+}
